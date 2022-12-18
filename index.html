@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccelProx</title>
+
+    <!-- ==== css link ==== -->
+    <link rel="stylesheet" href="asstes/css/style.css">
+
+    <!-- ============ font-awesome cdn link ======= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header id="home">
+        <nav id="nav">
+            <div class="container flex">
+                <div class="logo">
+                    <a href="#home"><img src="asstes/images/footer-logo.png" alt="logo" width="278px" id="logo"></a>
+                </div>
+                <div class="togle" onclick="showMenu()">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+                </div>
+                <div class="premiryMenu" id="primary_background">
+                </div>
+                <div class="primary_menu" id="primary_menu">
+                    <div class="togle" onclick="hideMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="mobileLogo">
+                        <img src="./asstes/images/footer-logo.png" alt="">
+                    </div>
+                    <ul class="flex">
+                        <li><a onclick="clickNav()" href="#hone" class="menu">Home</a></li>
+                        <li><a onclick="clickNav()" href="#work">How its work</a></li>
+                        <li><a onclick="clickNav()" href="#testimonials">Testimonials</a></li>
+                        <li><a onclick="clickNav()" href="#plans">Plans</a></li>
+                        <li><a onclick="clickNav()" href="#faq">Faq</a></li>
+                        <li><a onclick="clickNav()" href="#footer">Contact</a></li>
+                    </ul>
+
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        <section class="banner">
+            <div class="container">
+                <div class="site_tagline">
+                    <h1>
+                        The All-In-One<br /> <span class="color">LinkedIn</span> Automation Tool
+                    </h1>
+                    <h4>
+                        We help thousands of LinkedIn users simplify prospecting efforts, grow their business with our
+                        advanced LinkedIn automation software.
+                    </h4>
+                    <div class="btn">
+                        <a onclick="showContactPopup()">Book a FREE Demo</a>
+                    </div>
+                </div>
+                <div class="banner_img">
+                    <img src="asstes/images/banner_img.webp" alt="dashboard" width="600px">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section class="how-its-work" id="work">
+        <div class="container">
+            <h2>How It Works</h2>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                took a galley of type and scrambled it to make a type specimen book.</p>
+            <div class="work-service">
+
+
+                <div class="work-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="1613994186"
+                        class="svg u_1613994186 svg-icon" data-icon-name="li-target">
+                        <path d="M74.6,39.7l15-15H75.3V10.5l-15,15V38l-6.1,6c-4.7-4.2-10.8-6.8-17.6-6.8c-14.4,0-26.2,11.7-26.2,26.2
+                    c0,14.4,11.7,26.2,26.2,26.2s26.2-11.7,26.2-26.2c0-6.8-2.6-12.9-6.8-17.6l6.1-6.1C62.1,39.7,74.6,39.7,74.6,39.7z M83.5,27.2
+                    l-10,10h-8.9l10-10H83.5z M62.8,26.5l10-10v8.9l-10,10C62.8,35.4,62.8,26.5,62.8,26.5z M60.3,63.3C60.3,76.4,49.7,87,36.7,87
+                    C23.6,87,13,76.4,13,63.3s10.6-23.7,23.7-23.7c6.1,0,11.6,2.3,15.8,6.1l-7,7c-2.4-2-5.4-3.2-8.8-3.2c-7.6,0-13.7,6.1-13.7,13.7
+                    s6.2,13.7,13.7,13.7s13.7-6.2,13.7-13.7c0-3.3-1.2-6.4-3.2-8.8l7-7C58,51.7,60.3,57.3,60.3,63.3z M37.3,61c-0.2-0.1-0.4-0.1-0.6-0.1
+                    c-1.4,0-2.5,1.1-2.5,2.5s1.1,2.5,2.5,2.5s2.5-1.1,2.5-2.5c0-0.2-0.1-0.4-0.1-0.6l6.4-6.4c1.5,1.9,2.5,4.3,2.5,7
+                    c0,6.2-5,11.2-11.2,11.2s-11.2-5-11.2-11.2s5-11.2,11.2-11.2c2.6,0,5,1,7,2.5L37.3,61z"></path>
+                    </svg>
+                    <h3>Find Your Target Audience</h3>
+                    <p>Look for your target audience on LinkedIn by filtering profiles in the LinkedIn Search or prepare
+                        a CSV file with LinkedIn profile URLs</p>
+                </div>
+
+
+                <div class="work-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70" id="1224009144"
+                        class="svg u_1224009144 svg-icon" data-icon-name="wp-bullhorn_thin">
+                        <path d="M53,17c-0.4,0-0.8,0.1-1.1,0.2c0,0-38.6,12.7-39.2,12.8c-1.6,0.5-2.7,2.5-2.7,5s1.1,4.5,2.7,5c0.2,0.1,4.4,1.4,9.9,3.2
+                        l-0.4,1.1c-0.8,2.4,0.4,5,2.8,5.8l7.3,2.6c0.5,0.2,1,0.3,1.6,0.3c0.7,0,1.4-0.2,2-0.5c1.1-0.5,2-1.5,2.4-2.6l0.5-1.4
+                        c7.1,2.3,13.1,4.3,13.1,4.3c0.4,0.1,0.7,0.2,1.1,0.2c4.5,0,7-9.3,7-18S57.5,17,53,17z M12,35c0-1.9,0.8-2.9,1.3-3
+                        c0.4-0.1,25.9-8.5,35.5-11.6C47,23.8,46,29.5,46,35s1,11.2,2.8,14.7C39.2,46.5,13.7,38.2,13.3,38C12.8,37.9,12,36.9,12,35z
+                         M36.4,49.3c-0.2,0.7-0.7,1.2-1.3,1.5c-0.6,0.3-1.3,0.3-2,0.1l-7.3-2.6c-1.3-0.5-2-2-1.6-3.3l0.4-1.1c3.9,1.3,8.3,2.7,12.4,4.1
+                        L36.4,49.3z M53,51c-2.1,0-5-6.1-5-16s2.9-16,5-16c2.1,0,5,6.1,5,16S55.1,51,53,51z"></path>
+                    </svg>
+                    <h3>Add Leads to Campaign</h3>
+                    <p>Add these leads to your "connecting", "messaging", "visiting" or "endorsing" campaigns depending
+                        on what action you would like to perform with these leads.</p>
+                </div>
+
+
+                <div class="work-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="1297549497"
+                        class="svg u_1297549497 svg-icon" data-icon-name="transportation_rocket_lauch">
+                        <path
+                            d="M76.65,87.53a6.28,6.28,0,0,1-3.56-1.11,4.21,4.21,0,0,1-5.57.11A7.34,7.34,0,0,1,57.07,83a.86.86,0,0,1,1.59-.67,5.61,5.61,0,0,0,8.48,2.35l.66-.49.52.64a2.48,2.48,0,0,0,4-.13l.56-.8.72.66a4.58,4.58,0,1,0,4.25-7.82l-.73-.19.1-.75a2.41,2.41,0,0,0,0-.31,2.48,2.48,0,0,0-3.13-2.4l-1.13.3L73,72.17a2.43,2.43,0,0,0-4.27-1.51l-.76.89-.62-1a3.18,3.18,0,0,0-3-1.46.86.86,0,0,1-.15-1.72l.44,0a4.85,4.85,0,0,1,3.51,1.49,4.15,4.15,0,0,1,6.43,2.47,4.22,4.22,0,0,1,4.31,4,6.31,6.31,0,0,1-2.28,12.19Z">
+                        </path>
+                        <path
+                            d="M36.16,87.53a7.27,7.27,0,0,1-3.69-1,4.21,4.21,0,0,1-5.57-.11,6.31,6.31,0,1,1-5.83-11.09,4.2,4.2,0,0,1,4.32-4,4.14,4.14,0,0,1,6.42-2.47,4.89,4.89,0,0,1,4-1.46.86.86,0,1,1-.17,1.72l-.32,0a3.14,3.14,0,0,0-2.67,1.48l-.62,1-.76-.89A2.42,2.42,0,0,0,27,72.24l0,1.14-1.1-.26a2.47,2.47,0,0,0-3.1,2.72l.1.75-.73.19a4.58,4.58,0,1,0,4.25,7.82l.72-.66.56.8a2.48,2.48,0,0,0,4,.13l.52-.64.66.48a5.61,5.61,0,0,0,8.49-2.38.86.86,0,1,1,1.59.66A7.33,7.33,0,0,1,36.16,87.53Z">
+                        </path>
+                        <path
+                            d="M44.56,88.12l-2-3.14A82.45,82.45,0,0,1,35.47,71a9.27,9.27,0,0,1,1.75-9.63L42,56.07,46.83,68l-.94.34a4.61,4.61,0,0,0-3,4.9Zm-3.1-28.84-3,3.3a7.55,7.55,0,0,0-1.42,7.84A81,81,0,0,0,42,80.69l-.82-7.31a6.34,6.34,0,0,1,3.4-6.4Z">
+                        </path>
+                        <path
+                            d="M50,88.29l-.84-3.57c-3.73-15.88-.14-27.33,0-27.81L50,54.36l.82,2.54c.15.48,3.75,11.93,0,27.81Zm0-27.22a58,58,0,0,0,0,19A58,58,0,0,0,50,61.08Z">
+                        </path>
+                        <path
+                            d="M48.39,69.08h0a7.08,7.08,0,0,1-3.12-.91.86.86,0,0,1,1-1.44,5.43,5.43,0,0,0,2.26.62.86.86,0,0,1,0,1.72Z">
+                        </path>
+                        <path
+                            d="M55.48,88.12,57.15,73.2a4.61,4.61,0,0,0-3-4.9L53.3,68l.24-.87L58,56.07l4.81,5.36A9.27,9.27,0,0,1,64.57,71,82.42,82.42,0,0,1,57.48,85Zm0-21.13a6.34,6.34,0,0,1,3.4,6.4L58,80.7A81,81,0,0,0,63,70.42a7.55,7.55,0,0,0-1.42-7.84l-3-3.3Z">
+                        </path>
+                        <path
+                            d="M51.65,69.08a.86.86,0,0,1,0-1.72,5.44,5.44,0,0,0,2.26-.62.86.86,0,0,1,1,1.44,7.08,7.08,0,0,1-3.12.91Z">
+                        </path>
+                        <path
+                            d="M41.75,58.53a.86.86,0,0,1-.82-.59c-.09-.27-8.63-27.23,8.44-45.55l.63-.68.63.68a39.43,39.43,0,0,1,9.89,20.19,49.89,49.89,0,0,1,0,19c-1,4.38-1.43,6.28-1.43,6.3a.86.86,0,0,1-1.68-.41s.47-1.91,1.42-6.26a49.07,49.07,0,0,0,0-18.3A37.9,37.9,0,0,0,50,14.26C34.46,31.82,42.48,57.15,42.57,57.4a.86.86,0,0,1-.82,1.13Z">
+                        </path>
+                        <path
+                            d="M49.9,28.37a20.44,20.44,0,0,1-7.55-1.2A.86.86,0,0,1,43,25.58a19.2,19.2,0,0,0,6.87,1.06,19.2,19.2,0,0,0,6.87-1.06.86.86,0,0,1,.68,1.58A20.44,20.44,0,0,1,49.9,28.37Z">
+                        </path>
+                        <path
+                            d="M50,45.2a5.93,5.93,0,1,1,5.93-5.93A5.94,5.94,0,0,1,50,45.2Zm0-10.14a4.21,4.21,0,1,0,4.21,4.21A4.21,4.21,0,0,0,50,35.06Z">
+                        </path>
+                    </svg>
+                    <h3>Launch Your Campaign</h3>
+                    <p>Look for your target audience on LinkedIn by filtering profiles in the LinkedIn Search or prepare
+                        a CSV file with LinkedIn profile URLs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= About Us ========= -->
+
+    <section class="about">
+        <div class="container flex">
+            <div class="img">
+                <img src="asstes/images/aboutus.webp" alt="about_img">
+            </div>
+            <div class="data">
+                <h2>Automate and simplify your work on LinkedIn</h2>
+                <p>AccelProx is a powerful yet super simple autopilot for LinkedIn that automates your work and has a
+                    wide range of awesome features.</p>
+                <ul>
+                    <li>Send automated (personalized) connection requests on LinkedIn</li>
+                    <li>Send connection requests by email to</li>
+                    <li>Message hundreds of 1st level connections in bulk</li>
+                    <li>Visit hundreds of profiles automatically</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="funnel">
+        <div class="container flex">
+            <div class="data">
+                <h2>Build your marketing funnel on LinkedIn</h2>
+                <p>Imagine you could automatically connect with your target audience, then send a “thank you” message
+                    once the connection requests are accepted, endorse a few skills to warm these prospects up and
+                    convert them into clients by sending follow-ups.</p><br>
+                <p>The software allows you to create your personal LinkedIn lead generation funnel. Add, remove and
+                    combine features quickly and easily, save all your prospects in your personal dashboard and start
+                    getting awesome results with Octopus CRM
+                    LinkedIn automation.</p>
+            </div>
+            <div class="img">
+                <img src="asstes/images/funnel.png" alt="funnel_img">
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== compatible ======== -->
+
+    <section class="compatible">
+        <div class="data">
+            <h2>Compatible with</h2>
+            <p>AccelProx CRM is 100% compatible with Free LinkedIn, LinkedIn Premium, Sales Navigator and Recruiter
+                (including Recruiter Lite)</p>
+            <a onclick="showContactPopup()" class="btn">Get Started</a>
+        </div>
+
+        <div class="compat">
+            <div class="compatible-img">
+                <div class="compatible-cards flexa">
+                    <div class="card flexa">
+                        <img src="asstes/images/basic.webp" alt="linkedin-basic">
+                        <h3>Basic</h3>
+                    </div>
+                    <div class="card flexa">
+                        <img src="asstes/images/premium.webp" alt="linkedin-premium">
+                        <h3>Premium</h3>
+                    </div>
+                </div>
+                <div class="compatible-cards flexa">
+                    <div class="card flexa">
+                        <img src="asstes/images/navigator.webp" alt="linkedin-sales-navigator">
+                        <h3>Sales Navigator</h3>
+                    </div>
+                    <div class="card flexa">
+                        <img src="asstes/images/recruiter.webp" alt="linkedin-recruiter">
+                        <h3>Recruiter</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =============== review ========== -->
+
+    <section class="reviews" id="testimonials">
+        <div class="container">
+            <h2>What our users say</h2>
+            <p>Trusted by more than 40,000 users in almost every industry and country.</p>
+            <div class="cards">
+                <div class="card-col card-col1">
+                    <div class="review">
+                        <div class="review-content">
+                            <p>
+                                An essential tool for anyone with a LinkedIn Premium account who is serious about
+                                building their business. I would thoroughly recommend it. The cost is minimal to the
+                                level of business it can generate or provide.
+                            </p>
+                        </div>
+                        <div class="review-bio">
+                            <img src="asstes/images/review-img.jpg" alt="review-img">
+                            <span class="review-author">Chris Avond</span>
+                        </div>
+                    </div>
+
+
+                    <div class="review">
+                        <div class="review-content">
+                            <p>
+                                An essential tool for anyone with a LinkedIn Premium account who is serious about
+                                building their business. I would thoroughly recommend it. The cost is minimal to the
+                                level of business it can generate or provide.
+                            </p>
+                        </div>
+                        <div class="review-bio">
+                            <img src="asstes/images/review-img.jpg" alt="review-img">
+                            <span class="review-author">Chris Avond</span>
+                        </div>
+                    </div>
+
+                    <!-- ====== review3 ====== -->
+
+                    <div class="review">
+                        <div class="review-content">
+                            <p>
+                                I have been using it for a while now and love it! Another great thing about it is the
+                                customer support
+                            </p>
+                        </div>
+                        <div class="review-bio">
+                            <img src="asstes/images/review-img.jpg" alt="review-img">
+                            <span class="review-author">Chris Avond</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="card-col card-col2">
+
+                    <div class="review">
+                        <div class="review-content">
+                            <p>
+                                Fantastic tool for LinkedIn! Makes messaging and new connections so much faster and
+                                easier, plus it's simple to use.
+                            </p>
+                        </div>
+                        <div class="review-bio">
+                            <img src="asstes/images/review-img.jpg" alt="review-img">
+                            <span class="review-author">Chris Avond</span>
+                        </div>
+                    </div>
+
+                    <div class="review">
+                        <div class="review-content">
+                            <p>
+                                This is such a great tool. I've literally added over 100 connections in a single week.
+                                Octopus will give me close to 400 opportunities a month to speak to business
+                                professionals consistently and really automate my outreach! So pleased and you
+                                absolutely
+                                cannot beat the price! If you're not using this system you need to really consider it.
+                                Take the free trial and go boost your business. You have zero to lose because they don't
+                                require a credit card or commitment. Go crush
+                                it with, Octopus!
+                            </p>
+                        </div>
+                        <div class="review-bio">
+                            <img src="asstes/images/review-img.jpg" alt="review-img">
+                            <span class="review-author">Chris Avond</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card-col card-col3">
+
+                    <div class="review">
+                        <div class="review-content">
+                            <p>
+                                Fantastic tool for LinkedIn! Makes messaging and new connections so much faster and
+                                easier, plus it's simple to use. Still getting my head around setting up the funnels but
+                                the videos are very helpful. Highly recommend.
+                            </p>
+                        </div>
+                        <div class="review-bio">
+                            <img src="asstes/images/review-img.jpg" alt="review-img">
+                            <span class="review-author">Chris Avond</span>
+                        </div>
+                    </div>
+
+                    <div class="review">
+                        <div class="review-content">
+                            <p>
+                                Was skeptical at first, but after trying the software out then testing competitors,
+                                there's really no equal. Learning curve is a little steep, but it's robust once you get
+                                the hang of creating marketing funnels. I'm SUPER impressed with the assistance
+                                I receive from my account manager as a premium subscriber. Very quick and very thorough.
+                                Was skeptical at first, but after trying the software out then testing competitors,
+                                there's really no equal. Love this app!
+                            </p>
+                        </div>
+                        <div class="review-bio">
+                            <img src="asstes/images/review-img.jpg" alt="review-img">
+                            <span class="review-author">Chris Avond</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- =========== Pricing plans =========== -->
+
+    <section class="pricing_plans" id="plans">
+        <div class="container">
+            <h2>Pricing plans</h2>
+            <div class="sricing_cards">
+                <div class="standard plans">
+                    <div class="plan">
+                        <h3>Monthly subscription</h3>
+                        <span class="plan-price">$299</span>
+                        <p>Quarterly New Client Discount- <br /><span class="plan-style">$75 ($825/quarterly)</span></p>
+                    </div>
+                    <div class="plan_content">
+                        <p>Technical Support</p>
+                        <p>Unlimited Leads & CRM integration</p>
+                        <p>Monthly or Quarterly rolling contract</p>
+                    </div>
+                    <div class="btn">
+                        <a onclick="showContactPopup()" href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="pro plans">
+                    <div class="plan">
+                        <h3>Monthly subscription </h3>
+                        <span class="plan-price">$1250</span>
+                        <p>Quarterly New Client Discount- <br /><span class="plan-style">$150/month
+                                ($3300/quarterly)</span>
+                        </p>
+                    </div>
+                    <div class="plan_content">
+                        <p>Technical Support</p>
+                        <p>Dedicated Sales Agent</p>
+                        <p>Shared marketing resource</p>
+                        <p>Unlimited Leads & CRM integration</p>
+                        <p>Monthly or Quarterly rolling contract</p>
+                        <p>4 Additional LinkedIn Marketing Accounts for Organic growth</p>
+                    </div>
+                    <div class="btn">
+                        <a onclick="showContactPopup()" href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============= FAQ ========== -->
+
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2>Common Questions about Automation on LinkedIn with Octopus CRM</h2>
+
+            <div class="hole_faq">
+                <ul>
+                    <li class="accordion-item">
+                        <div class="accordion-title flex">
+                            <div class="title-text">
+                                <h4>Do I need a LinkedIn Sales Navigator account to use Octopus CRM ?</h4>
+                            </div>
+                            <div class="arrow-wrapper">
+                                <div class="arrow" onclick="arrording_function(0)">
+                                    <svg class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 1792"
+                                        style="background-color:inherit !important" fill="currentColor">
+                                        <path fill="inherit"
+                                            d="M1075 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-description">
+                            <p>Even though it's highly recommended to have a premium profile on LinkedIn, it's not a
+                                mandatory condition.</p><br />
+                            <p>Octopus CRM LinkedIn automation works perfectly well with free LinkedIn accounts.</p>
+                        </div>
+                    </li>
+                    <li class="accordion-item">
+                        <div class="accordion-title flex">
+                            <div class="title-text">
+                                <h4>How many connection requests and messages can I send with Octopus CRM ?</h4>
+                            </div>
+                            <div class="arrow-wrapper">
+                                <div class="arrow" onclick="arrording_function(1)">
+                                    <svg class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 1792"
+                                        style="background-color:inherit !important" fill="currentColor">
+                                        <path fill="inherit"
+                                            d="M1075 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-description">
+                            <p>Due to the new LinkedIn limitation, you're allowed to send up to 100 connection requests
+                                per week. With Octopus CRM, you can bypass this limit and continue sending 500+
+                                invitations per week (100-120 connection requests per
+                                DAY) without any risk to your LinkedIn account. And you do that by sending connection
+                                requests by email.</p>
+                            <br />
+                            <p>One of the most effective strategies here is to send 100 regular connection requests /
+                                week and once you reach the weekly limit, switch to sending connection requests by
+                                email.
+                            </p>
+                            <br />
+                            <p>As for the messages, you can send up to 100-150 messages on LinkedIn (depending on the
+                                type of your LinkedIn account).</p>
+                        </div>
+                    </li>
+                    <li class="accordion-item">
+                        <div class="accordion-title flex">
+                            <div class="title-text">
+                                <h4>If I start using your LinkedIn automation software, how can I cancel my
+                                    subscription?
+                                </h4>
+                            </div>
+                            <div class="arrow-wrapper">
+                                <div class="arrow" onclick="arrording_function(2)">
+                                    <svg class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 1792"
+                                        style="background-color:inherit !important" fill="currentColor">
+                                        <path fill="inherit"
+                                            d="M1075 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-description">
+                            <p>You can cancel your subscription with us anytime by going to your Billing page in your
+                                dashboard and pressing on the “Cancel subscription” button or reaching out to our
+                                support team via support@octopuscrm.io.</p>
+                        </div>
+                    </li>
+                    <li class="accordion-item">
+                        <div class="accordion-title flex">
+                            <div class="title-text">
+                                <h4>Is your automation tool suitable for agencies?</h4>
+                            </div>
+                            <div class="arrow-wrapper">
+                                <div class="arrow" onclick="arrording_function(3)">
+                                    <svg class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 1792"
+                                        style="background-color:inherit !important" fill="currentColor">
+                                        <path fill="inherit"
+                                            d="M1075 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-description">
+                            <p>Absolutely. There is a big number of agencies that use Octopus CRM on LinkedIn accounts
+                                of their clients. And we do keep confidentiality.</p>
+                            <br />
+                            <p>In addition, we have special offers for marketing agencies depending on the number of
+                                licenses you would like to receive. Just reach out to our support team at
+                                support@octopuscrm.io for more information.</p>
+                        </div>
+                    </li>
+
+                    <li class="accordion-item">
+                        <div class="accordion-title flex">
+                            <div class="title-text">
+                                <h4>What differentiates you from other LinkedIn marketing tools?</h4>
+                            </div>
+                            <div class="arrow-wrapper">
+                                <div class="arrow" onclick="arrording_function(4)">
+                                    <svg class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 1792"
+                                        style="background-color:inherit !important" fill="currentColor">
+                                        <path fill="inherit"
+                                            d="M1075 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-description">
+                            <p>Octopus CRM grants access to your personal multi-functional CRM page, in which you can
+                                store leads, perform automated actions, create campaigns and build marketing funnels on
+                                LinkedIn. And you can observe the performance of
+                                your LinkedIn campaigns in our LinkedIn analytics tool that shows your average
+                                acceptance and response rates, social selling index and more.</p>
+                            <br />
+                            <p>Unlike other LinkedIn automation tools, we'll never ask for your LinkedIn credentials, so
+                                you could keep complete control over your LinkedIn account. Moreover, we pay huge
+                                attention to safety and make sure your LinkedIn lead
+                                generation and prospecting journey with Octopus CRM LinkedIn automation is 100% secure.
+                                Learn more about why Octopus CRM software is much safer than others.</p>
+                            <br />
+                            <p>Therefore, if you're using LinkedIn for sales or recruiting, then it's probably the best
+                                LinkedIn prospecting software on the market.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========= footer ======== -->
+
+
+    <footer id="footer">
+        <div class="main-footer">
+            <div class="container">
+                <div class="footer-col">
+                    <div class="about-footer">
+                        <img src="asstes/images/footer-logo.png" alt="logo" width="280px">
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <div class="social-icons">
+                            <ul>
+                                <li><a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-footer">
+                        <h3>Services</h3>
+                        <div class="service-menu">
+                            <ul>
+                                <li><a href="#">Basic</a></li>
+                                <li><a href="#">Premium</a></li>
+                                <li><a href="#">Sales Navigator</a></li>
+                                <li><a href="#">Recruiter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="quick-link">
+                        <h3>Quick Link</h3>
+                        <div class="primary-menu">
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#work">How its work</a></li>
+                                <li><a href="#testimonials">Testimonials</a></li>
+                                <li><a href="#plans">Plans</a></li>
+                                <li><a href="#faq">Faq</a></li>
+                                <li><a href="#footer">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact-footer">
+                        <h3>Contact Us</h3>
+                        <div class="details">
+                            <p> <strong>Adress:</strong> 27 Division St, New York, NY 10002, USA</p>
+                            <p><strong>Email:</strong><a href="#">contact@accelprox.com</a></p>
+                            <p><strong>Phone:</strong><a href="#">+1(609) 664-0999</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <p>Copyright © 2022 AccelProx</p>
+            </div>
+        </div>
+    </footer>
+    <script src="asstes/js/index.js"></script>
+
+
+    <!-- =========== form pop ========== -->
+    <div class="contactFormPopup" id="contactFormPopup">
+        <div class="form">
+            <h2>Enquiry Now !
+            </h2>
+            <div onclick="contactFormPopupClose()" class="close">
+                <h3>x</h3>
+            </div>
+            <!-- <form onsubmit="sendmail(); reset(); return false;"> -->
+            <form action="#" method="post" onsubmit="event.preventDefault(); return sendmail()">
+                <!-- <form action="#"> -->
+                <div class="input">
+                    <label for="fname">First Name</label>
+                    <input id="fname" type="text" value="">
+                </div>
+                <div class="input">
+                    <label for="lname">Last Name</label>
+                    <input id="lname" type="text" value="">
+                </div>
+                <div class="input">
+                    <label for="number">Number</label>
+                    <input id="number" type="number" value="">
+                </div>
+                <div class="input">
+                    <label for="email">E-Mail</label>
+                    <input id="email" type="email" value="">
+                </div>
+                <div class="message">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" type="text" cols="5" rows="5" value=""></textarea>
+                </div>
+                <!-- <button type="submit">Submit</button> -->
+                <button type="submit" value="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+
+        function sendmail() {
+            // console.log("hello");
+            // e.preventDefault();
+            var fastName = document.getElementById('fname').value;
+            var lastName = document.getElementById('lname').value;
+            var number = document.getElementById('number').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            // console.log(message);
+
+            // var jjj = 'Name: ' + fastName + ' ' + lastName + '<br/>Email: ' + email + '<br/>Number: ' + number + '<br/><br/>Message: ' + message;
+
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "weebmail863@gmail.com",
+                Password: "AA431BA3404BB85DC4CAA26EE60A8AEC18CB",
+                To: 'Ankit.Shukla128476@gmail.com',
+                From: 'weebmail863@gmail.com',
+                // document.getElementbyid("idname").value
+                // Subject: 'New Enquiry Mail: ' + fastName + ' ' + lastName,
+                Subject: 'New Enquiry Mail:',
+                Body: 'Name: ' + fastName + ' ' + lastName + '<br/>Email: ' + email + '<br/>Number: ' + number + '<br/><br/>Message: ' + message
+            }).then(
+                (message) => {
+                    alert(message)
+                    return false;
+                }
+            );
+
+            console.log("done");
+
+
+        }
+    </script>
+</body>
+
+</html>
